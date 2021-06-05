@@ -313,6 +313,10 @@ footer .container{
 }
 
 .container .left-content .my-details{
+    font-size: 24px;
+    
+}
+.container .left-content .my-details{
    display: flex;
    flex-direction: row;
    align-items: center;
