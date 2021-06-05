@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBFBFB;
+    scroll-behavior: smooth;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    background: transparent;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    margin: 64px 0;
+}
+.twitter-share-button{
+    border: none;
+    font-size: 32px;
+    background: none;
+    font-weight: 500;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBFBFB;
+    height: 80vh;
+}
+
+.tagline{
+    text-align: center;
+}
+
+.head{
+    font-size: 72px;
+    font-weight: 600 ;
+}
+.tag{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #444444;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 96px;
+}
+
+.device-button, .explore-button{
+    margin: 8px;
+    width: 185px;
+    height: 47px;
+    background: #1a1a1a;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    border-radius: 8px;
+}
+
+/* section-2 */
+
+.section-2{
+    background-color: #F2F0E4;
+    height: 140vh;
+    text-align: center;
+    
+}
+
+ .container{
+    background: transparent; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.row-1{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 96px 0;
+}
+
+
+.row-1 .card{
+    width: 330px;
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.A4{
+    border-radius: 8px;
+    box-shadow: 31px 1px 41px -1px rgba(0,0,0,0.11);
+-webkit-box-shadow: 31px 1px 41px -1px rgba(0,0,0,0.11);
+-moz-box-shadow: 31px 1px 41px -1px rgba(0,0,0,0.11);
+}
+.row-1 .template-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: 24px;
+    background: transparent;
+
+}
+
+.template-details .mockup-name{
+    font-size: 32px;
+    font-weight: 500;
+    background: transparent;
+    margin: 16px;
+}
+  
+.download-button{
+    margin: 8px;
+    width: 250px;
+    height: 48px;
+    background: #1a1a1a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+
+.section-3 .explore-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 3rem 0;
+}
+
+.section-3 .explore-container h2{
+    font-size: 48px;
+    background: transparent;
+    margin-bottom: 32px;
+}
+.section-3 .explore-container button{
+    margin: 8px;
+    width: 250px;
+    height: 56px;
+    border: 2px solid #1a1a1a;
+    border-radius: 8px;
+    color: #1a1a1a;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: transparent;
+}
+
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem 0;
+    background: #F2F0E4;
+}
+
+i{
+    background: transparent;
+    color: #1a1a1a;
+    padding: 0 12px;
+}
+
+.container .left-content {
+    background: transparent;
+    
+}
+
+.container .left-content .my-details{
+    font-size: 32px;
+    font-size: 800;
+    margin-bottom: 24px;
+    background: transparent;
+    
+}
+.container .left-content .predesign-details{
+    font-size: 24px;
+    font-size: 800;
+    background: transparent;
+}
+
+.container .left-content span{
+    font-weight: 700;
+    background: transparent;
+}
+
+.container .update-title{
+    padding-bottom: 24px;
+    background: transparent;
+}
+
+.container .right-content .coming-updates{
+    background-color: transparent;
+}
+
+.container .right-content {
+    background-color: transparent;
+}
+
+.container  li{
+    padding: 12px 0;
+    background: transparent;
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 16px ;
+}
+.twitter-share-button{
+   margin: 16px 0;
+}
+
+.head{
+    font-size: 42px;
+    margin: auto 24px;
+}
+
+.tag{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px 16px ;
+}
+/* 
+.categories{
+    padding: 8px;
+    margin-top: 64px;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+*/
+.device-button{
+    display: none;
+} 
+
+.row-1{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 42px 0;
+}
+.row-1 .card{
+    width: 330px;
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 24px;
+}
+
+.section-2{
+    background-color: #F2F0E4;
+    height: 370vh;
+    text-align: center;
+    
+}
+.section-3 .explore-container {
+    text-align: center;
+}
+.section-3 .explore-container h2{
+    font-size: 38px;
+    background: transparent;
+    margin-bottom: 32px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left-content .my-details{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+    
+}
+span{
+    padding-left: 6px;
+}
+.container .left-content .predesign-details{
+    text-align: center;
+}
+
+.container .left-content span{
+    font-weight: 700;
+    background: transparent;
+}
+
+.container .right-content{
+    display: none;
+}
+
+
+
+
+
+  }
