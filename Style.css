@@ -272,6 +272,15 @@ i{
 
 
 @media only screen and (max-width: 800px) {
+
+    .product-hunt .ph-class{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-hunt{
+        display: flex;
+        flex-direction: column;
+    }
     
 .navbar{
     display: flex;
