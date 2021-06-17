@@ -276,6 +276,7 @@ i{
     .product-hunt .ph-class{
         display: flex;
         flex-direction: column;
+        margin-bottom: 16px;
     }
     .product-hunt{
         display: flex;
