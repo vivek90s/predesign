@@ -15,13 +15,54 @@ a{
     background: transparent;
 }
 
+p {
+    background: transparent;
+}
+
+.product-hunt .ph-badge{
+    background: transparent;
+}
+
+.product-hunt .ph-class{
+    align-items: center;
+   
+    padding: 0px 24px;
+}
+
+.product-hunt p{
+    color: white;
+    font-weight: 400;
+    background: transparent;
+}
+
+.product-hunt .ph-logo{
+   width: 75px;
+   height: 75px;
+   background: transparent;
+   
+}
+.product-hunt .ph-class{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+ }
+
+.product-hunt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #DA552F;
+    padding: 8px 0;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color:transparent;
-    margin: 64px 0;
+    margin: 32px 0;
 }
 .twitter-share-button{
     border: none;
@@ -226,6 +267,8 @@ i{
     padding: 12px 0;
     background: transparent;
 }
+
+
 
 
 @media only screen and (max-width: 800px) {
