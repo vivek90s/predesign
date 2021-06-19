@@ -213,6 +213,11 @@ p {
 }
 
 
+footer{
+    text-align: center;
+}
+
+
 footer .container{
     display: flex;
     flex-direction: row;
@@ -266,6 +271,17 @@ i{
 .container  li{
     padding: 12px 0;
     background: transparent;
+}
+
+.contribute-heading{
+    font-size: 20px;
+    margin: 24px 0;
+}
+.contribute-heading a{
+    text-decoration: none;
+    color: #4078c0;
+    font-weight: 600;
+    
 }
 
 
